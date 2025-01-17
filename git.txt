@@ -1,0 +1,5 @@
+Clone an existing repository:
+-> git clone <repository-URL>
+
+View the status of files in the repository:
+-> git status
