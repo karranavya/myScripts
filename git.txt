@@ -19,3 +19,23 @@ commit is used to
 
 now you have commited the changes but to push into the git hub you have to use commad:
 -> git push origin main
+
+To upload new repository:
+
+To start tracking files in a project, you need to initialize a Git repository.
+-> git init
+
+After creating the repository on GitHub, link your local repository to the remote repository.
+-> git remote add origin <remote-repository-URL>
+-git remote -v (Check if the remote repository is linked correctly.)
+
+branch in git helps to define which directory we are working as the project can have many directories and many may work on them. so the devlopers can chose the branch make required changes independently. to know which branch we are working on we use:
+-> git branch (default: master)
+to change the default branch name we use 
+-> git branch -M main
+
+Push your local changes to the remote repository.
+-> git branch -M main
+-> git push -u origin main
+
+we use -u to privent repeatation of "git push origin main" command. after using "-u" we can simply use "git push"
