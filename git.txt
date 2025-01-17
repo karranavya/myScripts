@@ -3,3 +3,19 @@ Clone an existing repository:
 
 View the status of files in the repository:
 -> git status
+
+there are 4 status:
+i) untracked: when new files that git dosen't yet track
+ii) modified: changed
+iii) staged: file is ready to be commited 
+iv) unmodified: unchanged
+
+adding a new or changed files in your working directory to the git stagibg area
+-> git add <- file name->
+-> git add . (to add all the files at once)
+
+commit is used to 
+-> git commit -m "message"
+
+now you have commited the changes but to push into the git hub you have to use commad:
+-> git push origin main
